@@ -1,0 +1,411 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spicy News from the Pepper Co.</title>
+	<style type="text/css">
+		body {
+			Margin: 0;
+			/* "Margin" should use capital M for compatibility with Outlook */
+			padding: 0;
+			background-color: #f1efef;
+			/* very pale gray */
+		}
+
+		table {
+			border-spacing: 0;
+		}
+
+		td {
+			padding: 0;
+		}
+
+		img {
+			border: 0;
+		}
+
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+		}
+
+		.webkit {
+			width: 100%;
+			max-width: 600px;
+			background-color: #ffffff;
+		}
+
+		.outer {
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			/* border-spacing set to zero to prevent email clients from adding borders */
+			font-family: sans-serif;
+			color: #4a4a4a;
+		}
+
+		.content {
+			line-height: 20px;
+		}
+
+		.padding {
+			padding: 15px;
+		}
+
+		.column-container {
+			text-align: center;
+			padding-top: 40px;
+			padding-bottom: 30px;
+			display: inline-block;
+		}
+
+		.column {
+			width: 100%;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.column tbody {
+			display: inline-block;
+			/* Chrome browser adds a tbody element between my table and tr elements, this allows inner content to be centered in full width of cell */
+		}
+
+		.two-columns .column {
+			max-width: 295px;
+			/* setting to a little less than half of max-width 600px */
+		}
+
+		.three-columns .column {
+			max-width: 195px;
+			/* setting to a little less than one third of max-width 600px */
+		}
+
+		.three-columns .content {
+			font-size: 15px;
+		}
+
+		a {
+			text-decoration: none;
+			color: #71b0bd;
+			font-size: 16px;
+		}
+
+
+		@media screen and (max-width: 600px) {
+			body {
+				background-color: #ffffff;
+			}
+			
+			img.recipe-image {
+				width: 200px !important;
+				max-width: 200px !important;
+			}
+
+			.padding img {
+				padding-right: 0 !important;
+				padding-left: 0 !important;
+				/* images will be off-center on mobile unless padding above is set to zero */
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="webkit" style="Margin:auto;">
+			<table class="outer">
+				<tr>
+					<td>
+						<table width=100% style="border-spacing:0;">
+							<tr>
+								<td style="background-color: #ebf0e4;padding:10px;text-align:center;">
+									<a href="#" target="_blank">
+										<img src="img/logo_b91e1e.png" width=360px alt="The Pepper Co.">
+									</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr> <!-- banner -->
+
+				<tr>
+					<td>
+						<a href="">
+							<img src="img/banner-img.jpg" width=600px style="max-width: 100%;"
+								alt="Our Spicy Newsletter">
+						</a>
+					</td>
+				</tr> <!-- image -->
+
+				<tr>
+					<td>
+						<p class="padding content">
+							Dear fellow pepper-lovers,<br>
+							<br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. In <a href="#" target=”_blank”>hendrerit gravida</a> rutrum
+							quisque non tellus orci ac.
+							Lectus vestibulum mattis ullamcorper velit. Tristique risus nec feugiat in fermentum posuere
+							urna. Eget dolor morbi non arcu risus. Sed cras ornare arcu dui vivamus arcu felis. Sit amet
+							aliquam id diam maecenas ultricies.<br>
+							<br>
+							Etiam sit amet nisl purus in mollis nunc sed id. Tellus
+							in metus vulputate eu scelerisque. Massa placerat duis ultricies lacus sed turpis. Tristique
+							magna sit amet purus gravida. Urna neque viverra justo nec ultrices dui sapien eget.
+							Convallis aenean et tortor at. Enim eu turpis egestas pretium aenean pharetra. Mauris vitae
+							ultricies leo integer malesuada. Ultrices <a href="#" target="_blank">gravida dictum fusce
+								ut placerat</a>.<br>
+							<br>
+							Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Mauris vitae ultricies leo
+							integer. Eget arcu dictum varius duis at consectetur lorem. Dui faucibus in ornare quam
+							viverra orci sagittis. Diam sollicitudin tempor id eu nisl nunc. Nec tincidunt praesent
+							semper feugiat nibh sed. Feugiat vivamus at augue eget arcu. Arcu non sodales neque sodales
+							ut <a href="#" target="_blank">etiam sit</a>.<br>
+							<br>
+							<br>
+							<strong>Sincerely,</strong><br>
+							<br>
+							Staff Name<br>
+							<em>Title</em>
+						</p>
+					</td>
+				</tr> <!-- staff letter -->
+
+				<tr>
+					<td class="column-container two-columns">
+
+						<p style="font-size:18px;color:#4a4a4a;Margin-bottom:13px;">Upcoming Events</p>
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<p style="font-size: 17px; font-weight: bold; Margin-bottom:0;">Event
+													Name</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>January 15 | <a href="#" target="_blank">RSVP</a></p>
+											</td>
+										</tr>
+									</table> <!-- content container -->
+								</td>
+							</tr>
+						</table> <!-- column item container -->
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<p style="font-size: 17px; font-weight: bold; Margin-bottom:0;">Event
+													Name</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>February 15 | <a href="#" target="_blank">RSVP</a></p>
+											</td>
+										</tr>
+									</table> <!-- content container -->
+								</td>
+							</tr>
+						</table> <!-- column item container -->
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<p style="font-size: 17px; font-weight: bold; Margin-bottom:0;">Event
+													Name</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>March 15 | <a href="#" target="_blank">RSVP</a></p>
+											</td>
+										</tr>
+									</table> <!-- content container -->
+								</td>
+							</tr>
+						</table> <!-- column item container -->
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<p style="font-size: 17px; font-weight: bold; Margin-bottom:0;">Event
+													Name</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p>April 15 | <a href="#" target="_blank">RSVP</a></p>
+											</td>
+										</tr>
+									</table> <!-- content container -->
+								</td>
+							</tr>
+						</table> <!-- column item container -->
+
+					</td> <!-- .two-columns -->
+
+				</tr> <!-- events -->
+
+				<tr>
+
+					<td class="column-container three-columns">
+						<p style="font-size:18px;color:#4a4a4a;Margin-bottom:13px;">New Recipes</p>
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/cuttingboard_420x280.jpg" class="recipe-image"
+														alt="Recipe 1" width=150px style="max-width: 150px;">
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td style="padding:10px;">
+												<p style="font-size: 17px; font-weight: bold;">Recipe 1</p>
+												<p>A short description about this delicious recipe.</p>
+												<a href="#" target="_blank">Read more...</a>
+											</td>
+										</tr>
+									</table> <!-- content container -->
+								</td>
+							</tr>
+						</table> <!-- column item container -->
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/salsa_420x280.jpg" class="recipe-image" alt="Recipe 2"
+														width=150px style="max-width: 150px;">
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td style="padding:10px;">
+												<p style="font-size: 17px; font-weight: bold;">Recipe 2</p>
+												<p>A short description about this delicious recipe.</p>
+												<a href="#" target="_blank">Read more...</a>
+											</td>
+										</tr>
+									</table> <!-- content container -->
+								</td>
+							</tr>
+						</table> <!-- column item container -->
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/taco_420x280.jpg"
+														class="last-product-image recipe-image" alt="Recipe 3"
+														width=150px style="max-width: 150px;">
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td style="padding:10px;">
+												<p style="font-size: 17px; font-weight: bold;">Recipe 3</p>
+												<p>A short description about this delicious recipe.</p>
+												<a href="#" target="_blank">Read more...</a>
+											</td>
+										</tr>
+									</table> <!-- content container -->
+								</td>
+							</tr>
+						</table> <!-- column item container -->
+					</td> <!-- .three-columns -->
+
+				</tr> <!-- recipe items -->
+
+				<tr>
+					<td>
+						<table width=100% style="border-spacing: 0;">
+
+							<tr>
+								<td style="background-color: #ebf0e4;padding:15px;text-align: center;">
+									<p style="font-size:18px;color:#4a4a4a;Margin-bottom:13px;">Connect with us</p>
+									<a href="#"><img src="img/facebook-128.png" alt="Facebook" width=30px></a>
+									<a href="#"><img src="img/twitter-128.png" alt="Twitter" width=30px></a>
+									<a href="#"><img src="img/pinterest-128.png" alt="Pinterest" width=30px></a>
+									<a href="#"><img src="img/instagram-128.png" alt="Instagram" width=30px></a>
+								</td>
+							</tr>
+
+						</table>
+					</td>
+				</tr> <!-- social -->
+
+				<tr>
+					<td style="background-color: #4a4a4a;">
+						<table width=100% style="border-spacing: 0;">
+
+							<tr>
+								<td style="padding:20px;text-align: center;padding-bottom:25px;">
+									<a href="#">
+										<img src="img/logo_white.png" alt="logo" width=160px>
+									</a>
+									<p style="font-size: 16px;Margin-top:18px;Margin-bottom:10px;color:#ffffff;">The
+										Pepper Co.
+									</p>
+									<p style="font-size: 16px;Margin-top:10px;color:#ffffff;">123 Street Rd, City State
+										12345</p>
+									<p><a href="mailto:hello@thepepperco.com">hello@thepepperco.com</a></p>
+									<p><a href="tel:18001234567">1-800-123-4567</a></p>
+
+								</td>
+							</tr> <!-- contact info -->
+
+							<tr>
+								<td style="padding-bottom:25px;text-align: center;">
+									<a href="#"
+										style="font-size: 12px; color:#ffffff;Margin-left:15px;Margin-right:15px;">Manage
+										preferences</a>
+									<a href="#"
+										style="font-size: 12px; color:#ffffff;Margin-left:15px;Margin-right:15px;">Unsubscribe</a>
+									<a href="#"
+										style="font-size: 12px; color:#ffffff;Margin-left:15px;Margin-right:15px;">Share
+										with a friend</a>
+
+								</td>
+							</tr> <!-- unsubscribe -->
+
+						</table>
+					</td>
+				</tr> <!-- footer -->
+
+			</table>
+		</div> <!-- .webkit -->
+	</div> <!-- .wrapper -->
+
+</body>
+
+</html>
